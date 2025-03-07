@@ -71,7 +71,7 @@ class ForeningArrangementer {
     }
 
     public function enqueue_scripts() {
-        wp_enqueue_script('forening-arrangementer-js', plugin_dir_url(__FILE__) . 'forening-arrangementer.js', array('jquery'), null, true);
+        wp_enqueue_script('forening-arrangementer-js', plugin_dir_url(__FILE__) . 'assets/forening-arrangementer.js', array('jquery'), null, true);
         wp_localize_script('forening-arrangementer-js', 'forening_arrangementer_ajax', array(
             'ajax_url' => admin_url('admin-ajax.php'),
             'nonce' => wp_create_nonce('forening_arrangementer_nonce'),
