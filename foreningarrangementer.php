@@ -62,7 +62,7 @@ class ForeningArrangementer {
 
         if ($query->have_posts()) {
             $query->the_post();
-            get_template_part('arrangementer-template');
+            get_template_part('templates/visarrangementer');
         } else {
             echo 'Forening ikke fundet.';
         }
@@ -80,7 +80,7 @@ class ForeningArrangementer {
 
     public function vis_arrangementer_shortcode() {
         ob_start();
-        get_template_part('rediger-arrangementer-template');
+        get_template_part('templates/redigerarrangementer');
         return ob_get_clean();
     }
 
