@@ -1,6 +1,6 @@
 # Forening Arrangementer Klasse
 
-Dette WordPress plugin giver foreninger mulighed for at oprette og administrere deres egne arrangementer direkte fra frontenden af deres WordPress-side. Pluginet tilbyder funktionalitet til at tilføje, redigere og slette arrangementer samt opdatere baggrundsbilledet på en specifik side.
+Denne klasse giver foreninger mulighed for at oprette og administrere deres egne arrangementer direkte fra frontenden af deres WordPress-side. Pluginet tilbyder funktionalitet til at tilføje, redigere og slette arrangementer samt opdatere baggrundsbilledet på en specifik side.
 
 ## Funktioner
 
